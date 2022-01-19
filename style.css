@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #A6A6A6;
+  background-color: black;
+}
+
+body li {
+  list-style: none;
+}
+
+body header .nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+body header .nav-ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1rem;
+  margin: 0 1rem;
+}
+
+body header .nav-scuba-logo {
+  height: 68px;
+}
+
+body header .nav-icon {
+  height: 60px;
+  cursor: pointer;
+}
+
+body header .nav-icon:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+body header .book-now {
+  padding: .7em 1.2em;
+  background-color: #FCBA00;
+  border: none;
+  cursor: pointer;
+}
+
+body header .book-now:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+/*# sourceMappingURL=style.css.map */

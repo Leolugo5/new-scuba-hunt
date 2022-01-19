@@ -1,0 +1,63 @@
+@import "params";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: $color_secundario;
+    background-color: $color_dark1;
+    li {
+        list-style: none;
+    }
+
+    header {
+        .nav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $color_blanco;
+        }
+        .nav-ul {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-between;
+            gap: 1rem;
+            
+            margin: 0 1rem;
+        }
+    
+        .nav-scuba-logo {
+            height: $nav_heigth;
+        }
+        .nav-icon {
+            height: $nav_icons;
+            cursor: pointer;
+            &:hover {
+                transform: scale(0.95);
+            }
+        }
+    
+        .book-now {
+            padding: .7em 1.2em;
+            background-color: $color_primario;
+            border: none;
+            cursor: pointer;
+            &:hover {
+                transform: scale(0.95);
+            }
+        }
+    }
+
+
+    
+}
+
+
+
+
