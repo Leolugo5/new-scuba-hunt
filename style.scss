@@ -28,10 +28,10 @@ body {
             justify-content: center;
             justify-content: space-between;
             gap: 1rem;
-            
+
             margin: 0 1rem;
         }
-    
+
         .nav-scuba-logo {
             height: $nav_heigth;
         }
@@ -40,24 +40,23 @@ body {
             cursor: pointer;
             &:hover {
                 transform: scale(0.95);
+                box-shadow: 0px 9px 0px 0px rgba(252, 186, 0, 0.75);
+                -webkit-box-shadow: 0px 9px 0px 0px rgba(252, 186, 0, 0.75);
+                -moz-box-shadow: 0px 9px 0px 0px rgba(252, 186, 0, 0.75);
             }
         }
-    
+
         .book-now {
-            padding: .7em 1.2em;
+            padding: 0.7em 1.2em;
             background-color: $color_primario;
             border: none;
             cursor: pointer;
+            font-weight: bold;
             &:hover {
                 transform: scale(0.95);
+                background-color: $color_dark1;
+                color: $color_primario;
             }
         }
     }
-
-
-    
 }
-
-
-
-

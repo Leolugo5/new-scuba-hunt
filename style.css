@@ -51,28 +51,34 @@ body header .nav-ul {
 }
 
 body header .nav-scuba-logo {
-  height: 68px;
+  height: 62px;
 }
 
 body header .nav-icon {
-  height: 60px;
+  height: 55px;
   cursor: pointer;
 }
 
 body header .nav-icon:hover {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
+  box-shadow: 0px 9px 0px 0px rgba(252, 186, 0, 0.75);
+  -webkit-box-shadow: 0px 9px 0px 0px rgba(252, 186, 0, 0.75);
+  -moz-box-shadow: 0px 9px 0px 0px rgba(252, 186, 0, 0.75);
 }
 
 body header .book-now {
-  padding: .7em 1.2em;
+  padding: 0.7em 1.2em;
   background-color: #FCBA00;
   border: none;
   cursor: pointer;
+  font-weight: bold;
 }
 
 body header .book-now:hover {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
+  background-color: black;
+  color: #FCBA00;
 }
 /*# sourceMappingURL=style.css.map */
