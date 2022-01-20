@@ -198,21 +198,22 @@ body .home .home-btn {
     display: block;
   }
   body header #nav-opener {
-    -webkit-transform: scale(1.8);
-            transform: scale(1.8);
+    -webkit-transform: scale(1.95);
+            transform: scale(1.95);
     cursor: pointer;
   }
   body header #nav-opener:hover {
-    -webkit-transform: scale(1.7);
-            transform: scale(1.7);
+    -webkit-transform: scale(1.99);
+            transform: scale(1.99);
   }
   body header #nav-closer {
-    -webkit-transform: scale(1.8);
-            transform: scale(1.8);
+    -webkit-transform: scale(1.95);
+            transform: scale(1.95);
+    cursor: pointer;
   }
   body header #nav-closer:hover {
-    -webkit-transform: scale(1.7);
-            transform: scale(1.7);
+    -webkit-transform: scale(1.99);
+            transform: scale(1.99);
   }
 }
 
