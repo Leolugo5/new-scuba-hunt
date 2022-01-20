@@ -56,38 +56,57 @@
 
     <!-- FIRST SECTION -->
     <div class="home">
+        <h1 class="home-title">
+            SCUBAHUNT COZUMEL
+            <span class="home-title-colored">
+                UNDERWATER SCAVENGER GAME
+            </span>
+        </h1>
+        <h3 class="home-subtitle">
+            COZUMEL AND CARIBBEAN FIRST AND ONLY DIVE CHALLENGE GAME
+            <span class="home-subtitle-colored">
+                Navigate maze searching for hidden clues. Do unusual twists on scuba skills to decipher puzzzling codes.
+            </span>
+        </h3>
+        <button class="book-now home-btn">BOOK NOW</button>
     </div>
 
+    <!-- SECOND SECTION -->
+
+
+
+
+
+
+
+    <script>
+        const navOpen = document.getElementById('nav-opener')
+        const closer = document.getElementById('nav-closer')
+        const icons = document.getElementById('nav-icons-list')
+        let closerControl = false
+        navOpen.addEventListener('click', () => {
+            if (closerControl === false) {
+                closer.classList.add('open-on');
+                closer.classList.remove('open-off');
+                navOpen.classList.remove('open-on');
+                navOpen.classList.add('open-off');
+                icons.classList.add('nav-icons-on');
+                closerControl = true
+            }
+        }
+        )
+        closer.addEventListener('click', () => {
+            if (closerControl === true) {
+                navOpen.classList.add('open-on');
+                navOpen.classList.remove('open-off');
+                closer.classList.remove('open-on');
+                closer.classList.add('open-off');
+                icons.classList.remove('nav-icons-on');
+                closerControl = false
+            }
+        }
+        )
+    </script>
 </body>
-
-
-<script>
-    const navOpen = document.getElementById('nav-opener')
-    const closer = document.getElementById('nav-closer')
-    const icons = document.getElementById('nav-icons-list')
-    let closerControl = false
-    navOpen.addEventListener('click', () => {
-        if (closerControl === false) {
-            closer.classList.add('open-on');
-            closer.classList.remove('open-off');
-            navOpen.classList.remove('open-on');
-            navOpen.classList.add('open-off');
-            icons.classList.add('nav-icons-on');
-            closerControl = true
-        }
-    }
-    )
-    closer.addEventListener('click', () => {
-        if (closerControl === true) {
-            navOpen.classList.add('open-on');
-            navOpen.classList.remove('open-off');
-            closer.classList.remove('open-on');
-            closer.classList.add('open-off');
-            icons.classList.remove('nav-icons-on');
-            closerControl = false
-        }
-    }
-    )
-</script>
 
 </html>
