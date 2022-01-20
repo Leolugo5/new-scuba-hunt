@@ -11,7 +11,7 @@
     border: none;
     cursor: pointer;
     font-weight: bold;
-    transition: all 0.2s ease-out;
+    transition: all 0.2s ease-in-out;
     &:hover {
         transform: scale(0.99999);
         background-color: $color_dark1;
@@ -60,7 +60,7 @@ body {
             height: $nav_icons;
             cursor: pointer;
             margin: 0 1rem;
-            transition: all 0.15s ease-out;
+            transition: all 0.15s ease-in-out;
             &:hover {
                 transform: scale(0.95);
                 box-shadow: 0px 9px 0px 0px rgba(252, 186, 0, 0.75);
@@ -73,12 +73,11 @@ body {
     .home {
         width: 100%;
         height: 95vh;
-        top: 65px;
         position: relative;
-        background-image: url('/media/Images/P1010015.jpg');
+        background-image: url("/media/Images/P1010015.jpg");
         background-position: center;
         background-size: cover;
-        
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -98,6 +97,7 @@ body {
             display: flex;
             flex-direction: column;
             color: $color_blanco;
+
             .home-subtitle-colored {
                 color: $color_primario;
             }
@@ -109,8 +109,50 @@ body {
         }
     }
 
-    
+    .pricing {
+        width: 100%;
+        height: 100%;
+        color: $color_dark1;
+        background-color: $color_primario;
 
+        .pricing-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: start;
+
+
+            .pricing-body {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-evenly;
+            
+                .pricing-cards {
+                    background-color: tomato;
+                    min-width: min-content;
+                    max-width: 450px;
+                    width: 250px;
+                    height: 100%;
+                    padding: 1rem 2rem;
+                }
+                .pricing-scuba {
+                    background-color: tomato;
+                   
+                }
+
+
+                .pricing-rental {
+                    background-color: tomato;
+                   
+                }
+            }
+        }
+    }
 }
 
 /* RESPONSIVE 720 */
@@ -136,7 +178,6 @@ body {
                 justify-content: center;
                 justify-content: space-around;
                 background-color: $color_blanco;
-                
             }
             .nav-icons-on {
                 display: flex;
@@ -148,6 +189,7 @@ body {
             #nav-opener {
                 transform: scale(1.95);
                 cursor: pointer;
+                transition: all 0.5s ease-in-out;
             }
             #nav-opener:hover {
                 transform: scale(1.99);
@@ -155,6 +197,7 @@ body {
             #nav-closer {
                 transform: scale(1.95);
                 cursor: pointer;
+                transition: all 0.5s ease-in-out;
             }
             #nav-closer:hover {
                 transform: scale(1.99);
