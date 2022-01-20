@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav class="nav">
@@ -14,7 +16,25 @@
                 <li>
                     <img src="./media/Logo/header-logo.png" alt="Scuba Hunt Logo" class="nav-scuba-logo">
                 </li>
-                <li class="nav-icons icons-list">
+                <span class="nav-opener">
+                    <svg id="nav-opener" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list open-on" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+
+
+                    <svg id="nav-closer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-x-lg open-off" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z" />
+                        <path fill-rule="evenodd"
+                            d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z" />
+                    </svg>
+
+
+                </span>
+                <li id="nav-icons-list" class="nav-icons icons-list">
                     <img src="./media/icons/face.jpeg" alt="" class="nav-icon">
                     <img src="./media/icons/insta.jpeg" alt="" class="nav-icon">
                     <img src="./media/icons/TripAdvisor.jpeg" alt="" class="nav-icon">
@@ -27,5 +47,41 @@
             </ul>
         </nav>
     </header>
+
+    <!-- FIRST SECTION -->
+    <div class="home">
+    </div>
+
 </body>
+
+
+<script>
+    const navOpen = document.getElementById('nav-opener')
+    const closer = document.getElementById('nav-closer')
+    const icons = document.getElementById('nav-icons-list')
+    let closerControl = false
+    navOpen.addEventListener('click', () => {
+        if (closerControl === false) {
+            closer.classList.add('open-on');
+            closer.classList.remove('open-off');
+            navOpen.classList.remove('open-on');
+            navOpen.classList.add('open-off');
+            icons.classList.add('nav-icons-on');
+            closerControl = true
+        }
+    }
+    )
+    closer.addEventListener('click', () => {
+        if (closerControl === true) {
+            navOpen.classList.add('open-on');
+            navOpen.classList.remove('open-off');
+            closer.classList.remove('open-on');
+            closer.classList.add('open-off');
+            icons.classList.remove('nav-icons-on');
+            closerControl = false
+        }
+    }
+    )
+</script>
+
 </html>

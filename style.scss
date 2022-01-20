@@ -8,12 +8,16 @@
 body {
     color: $color_secundario;
     background-color: $color_dark1;
+    height: 3000px;
     li {
         list-style: none;
     }
 
     header {
         .nav {
+            z-index: 9990;
+            position: fixed;
+            top: 0;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -35,9 +39,13 @@ body {
         .nav-scuba-logo {
             height: $nav_heigth;
         }
+        .nav-opener {
+            display: none;
+        }
         .nav-icon {
             height: $nav_icons;
             cursor: pointer;
+            margin: 0 1rem;
             &:hover {
                 transform: scale(0.95);
                 box-shadow: 0px 9px 0px 0px rgba(252, 186, 0, 0.75);
@@ -45,7 +53,6 @@ body {
                 -moz-box-shadow: 0px 9px 0px 0px rgba(252, 186, 0, 0.75);
             }
         }
-
         .book-now {
             padding: 0.7em 1.2em;
             background-color: $color_primario;
@@ -56,6 +63,75 @@ body {
                 transform: scale(0.95);
                 background-color: $color_dark1;
                 color: $color_primario;
+            }
+        }
+    }
+
+    .home {
+        width: 100%;
+        height: 95vh;
+        top: 65px;
+        position: relative;
+        background-color: $color_secundario;
+        background-image: url('/media/Images/P1010015.jpg');
+        background-blend-mode: multiply;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        header {
+            .open-off {
+                display: none;
+            }
+            .open-on {
+                display: block;
+            }
+            .nav-icons {
+                display: none;
+                position: fixed;
+                top: 70px;
+                left: 0;
+                height: 15%;
+                width: 100%;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+                background-color: $color_blanco;
+                
+            }
+            .nav-icons-on {
+                display: flex;
+            }
+
+            .nav-opener {
+                display: block;
+            }
+            #nav-opener {
+                transform: scale(1.8);
+                cursor: pointer;
+            }
+            #nav-opener:hover {
+                transform: scale(1.7);
+            }
+            #nav-closer {
+                transform: scale(1.8);
+            }
+            #nav-closer:hover {
+                transform: scale(1.7);
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        header {
+            .nav-icon {
+                height: 60%;
+                margin: 0.2rem;
             }
         }
     }
