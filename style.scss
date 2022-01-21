@@ -49,6 +49,9 @@ body {
             justify-content: center;
             align-items: center;
             background-color: $color_blanco;
+            box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.20);
+            -webkit-box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.20);
+            -moz-box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.20);
         }
         .nav-ul {
             width: 100%;
@@ -232,12 +235,11 @@ body {
             #nav-closer:hover {
                 transform: scale(1.99);
             }
-            
         }
         .home {
             background-image: url("/media/Images/P1010092.jpg");
             height: 100vh;
-            
+
             .home-title {
                 margin-top: -5rem;
                 display: flex;
@@ -246,7 +248,7 @@ body {
                 font-weight: 300;
                 font-size: 14vw;
                 letter-spacing: 3px;
-    
+
                 .home-title-colored {
                     color: $color_primario;
                 }
@@ -259,7 +261,6 @@ body {
             }
         }
     }
-    
 }
 
 /* RESPONSIVE 480 */
