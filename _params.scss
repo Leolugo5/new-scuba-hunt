@@ -1,6 +1,22 @@
-$color_primario: #FCBA00;
-$color_secundario: #A6A6A6;
-$color_blanco: #F7F7F7;
+/* COLORS */
+$color_primario: #fcba00;
+$color_secundario: #a6a6a6;
+$color_blanco: #f7f7f7;
 $color_dark1: black;
+$color_bg-home: #0a0a0ab7;
+
+/* SIZES */
 $nav_heigth: 62px;
-$nav_icons: 55px;
+$nav_icons: 38px;
+
+/* FONTS */
+/*     
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Urbanist', sans-serif; 
+*/
+$font_primario: "Anton", sans-serif;
+$font_secundario: "Montserrat", sans-serif;
+$font_urbanist: "Urbanist", sans-serif;
