@@ -117,8 +117,9 @@ body {
             display: flex;
             flex-direction: column;
             color: $color_primario;
-            font-size: 18/px;
+            font-size: 18px;
             font-weight: 600;
+            text-transform: uppercase;
 
             .home-subtitle-colored {
                 color: $color_primario;

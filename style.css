@@ -181,8 +181,9 @@ body .home .home-subtitle {
       -ms-flex-direction: column;
           flex-direction: column;
   color: #fcba00;
-  font-size: 18/px;
+  font-size: 18px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 body .home .home-subtitle .home-subtitle-colored {
