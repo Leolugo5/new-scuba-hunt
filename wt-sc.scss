@@ -1,0 +1,97 @@
+@import "params";
+
+.wt-i-sc-h {
+    background-color: $color_blanco;
+    color: $color_dark1;
+    width: 100%;
+    min-width: min-content;
+    min-height: min-content;
+
+
+    .wt-i-sc-h-wrapper {
+        padding: 2rem;
+        padding-top: 5rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        .wt-title {
+            font-family: $font_primario;
+            font-size: 6vh;
+        }
+        .wt-body {
+            width: 100%;
+            min-height: min-content;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-around;
+            font-family: $font_secundario;
+
+            .wt-sect {
+                padding: 1rem;
+                width: 28%;
+                min-height: min-content;
+                height: 100%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                justify-content: space-evenly;
+
+
+                .wt-imgs {
+                    margin: 0 auto;
+                    width: 80px;
+                    height: 80px;
+                    background-color: $color_primario;
+                }
+                .wt-img {
+                    width: 150px;
+                    height: 150px;
+                    margin: 0 auto;
+                }
+
+                .wt-p {
+                    font-size: 3vh;
+                }
+            }
+        }
+    }
+}
+
+/* RESPONSIVE 720 */
+@media screen and (max-width: 720px) {
+    .wt-i-sc-h {
+        min-height: min-content;
+        height: min-content;
+
+
+        .wt-i-sc-h-wrapper {
+            height: min-content;
+            padding: 2rem 1rem;
+            .wt-title {
+                padding: .5rem 0;
+                font-size: 2rem;
+            }
+            .wt-body {
+                height: min-content;
+                margin-top: .5rem;
+                min-height: min-content;
+                flex-direction: column;
+                
+                .wt-sect {
+                    min-height: min-content;
+                    width: 100%;
+                    height: fit-content;
+                }
+            }
+        }
+    }
+}
