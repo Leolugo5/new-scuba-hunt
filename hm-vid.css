@@ -94,6 +94,7 @@
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  background-image: url("./media/Images/image00161.jpg");
 }
 
 .video-cont .hm-close-icon {
