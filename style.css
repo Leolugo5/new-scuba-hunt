@@ -311,6 +311,7 @@ body .pricing .pricing-wrapper .pricing-body .pricing-rental {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    top: 75px;
   }
   body header .nav-opener {
     display: block;
