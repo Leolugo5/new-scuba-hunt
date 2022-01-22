@@ -130,6 +130,7 @@ body header .nav-icon:hover {
 }
 
 body .home {
+  padding-top: 5rem;
   z-index: 1;
   width: 100%;
   min-height: -webkit-min-content;

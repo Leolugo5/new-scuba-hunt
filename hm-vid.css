@@ -1,0 +1,160 @@
+/* COLORS */
+/* SIZES */
+/* FONTS */
+/*     
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Urbanist', sans-serif; 
+*/
+.video-cont {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #fcba00;
+  margin-top: 4rem;
+  border-radius: 50%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.video-cont .play-btn {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.video-cont .play-btn:hover {
+  color: #fcba00;
+}
+
+.video-cont:hover {
+  background-color: #f7f7f7;
+}
+
+.video-cont .hm-video-card-off {
+  display: none;
+}
+
+.video-cont .hm-video-card-on {
+  z-index: 888;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1f2225c4;
+}
+
+.video-cont .hm-video-wrapper {
+  position: absolute;
+  top: 90px;
+  width: 60%;
+  height: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.video-cont .home-vid {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.video-cont .hm-close-icon {
+  color: #fcba00;
+  position: absolute;
+  right: 3rem;
+  top: 120px;
+  -webkit-transform: scale(1.9);
+          transform: scale(1.9);
+  cursor: pointer;
+}
+
+.video-cont .hm-close-icon:hover {
+  -webkit-transform: scale(1.75);
+          transform: scale(1.75);
+}
+
+.video-cont::after {
+  content: 'Discover more...';
+  top: 100%;
+  width: 300%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  color: #f7f7f7;
+}
+
+/* RESPONSIVE 720 */
+@media screen and (max-width: 720px) {
+  .video-cont .hm-video-card-on {
+    width: 100%;
+    height: 100%;
+    background-color: tomato;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .video-cont .hm-video-wrapper {
+    top: 90px;
+    width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    top: 40%;
+  }
+  .video-cont .home-vid {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=hm-vid.css.map */

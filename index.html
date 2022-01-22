@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- STYLES -->
-    <link rel="stylesheet" href="wt-sc.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wt-sc.css">
+    <link rel="stylesheet" href="hm-vid.css">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,19 +67,32 @@
     <div class="home">
         <h1 class="home-title primary-font">
             SCUBA HUNT
-            <!-- <span class="home-title-colored primary-font">
-                FIRST AND ONLY DIVE CHALLENGE GAME
-            </span> -->
         </h1>
         <h3 class="home-subtitle secondary-font">
-            <!--             Cozumel and caribbean  -->
-            <!--             Navigate maze searching for hidden clues, do unusual twists on scuba skills to decipher puzzzling codes. -->
             First and only dive challenge game
             <span class="home-subtitle-colored secondary-font">
                 IN COZUMEL
             </span>
         </h3>
         <button class="book-now home-btn">BOOK NOW</button>
+        <div class="video-cont">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="hm-player-btn"
+                class="bi bi-play-fill play-btn" viewBox="0 0 16 16">
+                <path
+                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+            </svg>
+            <div id="hm-video-wrapper" class="hm-video-card-off ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="hm-close-icon"
+                    class="bi bi-x-square-fill hm-close-icon" viewBox="0 0 16 16">
+                    <path
+                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                </svg>
+                <div class="hm-video-wrapper">
+                    <video id="hm-main-video" controls src="./media/video files/header-vid.mp4"
+                        class="home-vid"></video>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- SECOND SECTION -->
@@ -169,6 +183,13 @@
         const navOpen = document.getElementById('nav-opener')
         const closer = document.getElementById('nav-closer')
         const icons = document.getElementById('nav-icons-list')
+        const vidCloser = document.getElementById('hm-close-icon')
+        const videoWrapper = document.getElementById('hm-video-wrapper')
+        const videoPlayer = document.getElementById('hm-player-btn')
+        const videoFile = document.getElementById('hm-main-video')
+
+
+
         let closerControl = false
         navOpen.addEventListener('click', () => {
             if (closerControl === false) {
@@ -192,6 +213,20 @@
             }
         }
         )
+
+        vidCloser.addEventListener('click', () => {
+            videoWrapper.classList.add('hm-video-card-off');
+            videoWrapper.classList.remove('hm-video-card-on');
+            videoFile.pause();
+            videoFile.currentTime = 0;
+        }
+        )
+        videoPlayer.addEventListener('click', () => {
+            videoWrapper.classList.add('hm-video-card-on');
+            videoWrapper.classList.remove('hm-video-card-off');
+        }
+        )
+
     </script>
 </body>
 
