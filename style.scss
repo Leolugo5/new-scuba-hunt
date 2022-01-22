@@ -41,6 +41,7 @@ body {
 
     header {
         .nav {
+            height: $nav_heigth;
             z-index: 9990;
             position: fixed;
             top: 0;
@@ -66,7 +67,8 @@ body {
         }
 
         .nav-scuba-logo {
-            height: $nav_heigth;
+            height: $nav_logo_heigth;
+            transform: scale(1.5);
         }
         .nav-opener {
             display: none;

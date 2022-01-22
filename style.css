@@ -61,6 +61,7 @@ body li {
 }
 
 body header .nav {
+  height: 72px;
   z-index: 9990;
   position: fixed;
   top: 0;
@@ -103,7 +104,9 @@ body header .nav-ul {
 }
 
 body header .nav-scuba-logo {
-  height: 62px;
+  height: 68px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 body header .nav-opener {
