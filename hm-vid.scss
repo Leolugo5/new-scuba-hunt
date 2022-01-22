@@ -103,15 +103,18 @@
             align-items: center;
         }
         .hm-video-wrapper {
+            top: 30%;
             top: 90px;
             width: 90%;
             height: fit-content;
             max-height: fit-content;
-            top: 30%;
             object-fit: contain;
+            background-color: tomato;
         }
         .home-vid {
             width: 100%;
+            height: fit-content;
+            max-height: fit-content;
         }
     }
 }
