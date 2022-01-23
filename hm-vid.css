@@ -160,9 +160,9 @@
   }
   .video-cont .home-vid {
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
     max-height: -webkit-fit-content;
     max-height: -moz-fit-content;
     max-height: fit-content;
