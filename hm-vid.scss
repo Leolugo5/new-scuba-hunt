@@ -111,6 +111,8 @@
             width: 100%;
             height: max-content;
             max-height: fit-content;
+            display: inline-block;
+            vertical-align: baseline;
         }
     }
 }

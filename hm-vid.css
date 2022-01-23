@@ -166,6 +166,8 @@
     max-height: -webkit-fit-content;
     max-height: -moz-fit-content;
     max-height: fit-content;
+    display: inline-block;
+    vertical-align: baseline;
   }
 }
 /*# sourceMappingURL=hm-vid.css.map */
