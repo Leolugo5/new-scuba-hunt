@@ -166,9 +166,8 @@
     max-height: -moz-fit-content;
     max-height: fit-content;
     background-image: url("./media/img/image00161.jpg");
-    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 /*# sourceMappingURL=hm-vid.css.map */
