@@ -60,7 +60,6 @@
         width: 100%;
         height: 100%;
         object-fit: contain;
-        background-image: url("./media/Images/image00161.jpg");
     }
     .hm-close-icon {
         color: $color_primario;
@@ -111,6 +110,10 @@
             width: 100%;
             height: fit-content;
             max-height: fit-content;
+            background-image: url("./media/img/image00161.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
     }
 }
