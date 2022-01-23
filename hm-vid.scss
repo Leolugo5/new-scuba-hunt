@@ -61,7 +61,8 @@
         height: fit-content;
         object-fit: contain;
     }
-    .hm-close-icon {
+    .hm-close-icons {
+        z-index: 888;
         color: $color_primario;
         position: absolute;
         right: 3rem;

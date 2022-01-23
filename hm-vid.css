@@ -98,7 +98,8 @@
      object-fit: contain;
 }
 
-.video-cont .hm-close-icon {
+.video-cont .hm-close-icons {
+  z-index: 888;
   color: #fcba00;
   position: absolute;
   right: 3rem;
@@ -108,7 +109,7 @@
   cursor: pointer;
 }
 
-.video-cont .hm-close-icon:hover {
+.video-cont .hm-close-icons:hover {
   -webkit-transform: scale(1.75);
           transform: scale(1.75);
 }
