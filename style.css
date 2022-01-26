@@ -41,6 +41,7 @@ h4 {
   font-weight: bold;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  color: black;
 }
 
 .book-now:hover {
@@ -195,7 +196,7 @@ body .home .home-subtitle {
 body .home .home-subtitle .home-subtitle-colored {
   color: #fcba00;
   font-weight: 900;
-  font-size: 2.5vw;
+  font-size: 2.8vw;
   padding: 1rem;
 }
 
@@ -364,7 +365,7 @@ body .pricing .pricing-wrapper .pricing-body .pricing-rental {
     font-size: 1.5rem;
   }
   body .home .home-subtitle .home-subtitle-colored {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 }
 

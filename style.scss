@@ -24,6 +24,7 @@ h4 {
     cursor: pointer;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
+    color: $color_dark1;
     &:hover {
         transform: scale(0.99999);
         background-color: $color_dark1;
@@ -129,7 +130,7 @@ body {
             .home-subtitle-colored {
                 color: $color_primario;
                 font-weight: 900;
-                font-size: 2.5vw;
+                font-size: 2.8vw;
                 padding: 1rem;
             }
         }
@@ -260,7 +261,7 @@ body {
             .home-subtitle {
                 font-size: 1.5rem;
                 .home-subtitle-colored {
-                    font-size: 1rem;
+                    font-size: 1.8rem;
                 }
             }
         }
