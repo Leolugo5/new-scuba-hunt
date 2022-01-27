@@ -1,0 +1,147 @@
+/* COLORS */
+/* SIZES */
+/* FONTS */
+/*     
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Urbanist', sans-serif; 
+*/
+.wt-pp-sy {
+  background-color: white;
+  color: black;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  width: 100%;
+  max-height: 100%;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-title {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 6vh;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 500%;
+  -webkit-transition: all ease-in-out;
+  transition: all ease-in-out;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container {
+  padding: 0 3rem;
+  width: 100%;
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .quote {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  word-break: break-all;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .quote .cite {
+  font-family: "Urbanist", sans-serif;
+  padding-top: 1em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comillas {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  font-weight: 900;
+  font-size: 6rem;
+  font-family: "Anton", sans-serif;
+  text-shadow: 5px 3px 0px #fcba00;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comll-1 {
+  margin-left: 5%;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comll-2 {
+  margin-left: 95%;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .btn-container {
+  margin: 0 auto;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .btn-container .se-btn {
+  cursor: pointer;
+  margin: 10px;
+  width: 28px;
+  height: 28px;
+  border-style: none;
+  border-radius: 50%;
+  background-color: #fcba00;
+  box-shadow: 3px 3px 0px 0px black;
+  -webkit-box-shadow: 3px 3px 0px 0px black;
+  -moz-box-shadow: 3px 3px 0px 0px black;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .btn-container .se-btn:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .btn-container .se-btn:hover:active {
+  -webkit-transition: all 0.01s ease;
+  transition: all 0.01s ease;
+  background-color: black;
+  box-shadow: 3px 3px 0px 0px #fcba00;
+  -webkit-box-shadow: 3px 3px 0px 0px #fcba00;
+  -moz-box-shadow: 3px 3px 0px 0px #fcba00;
+}
+/*# sourceMappingURL=reviews.css.map */

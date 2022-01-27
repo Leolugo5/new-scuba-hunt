@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="wt-sc.css">
     <link rel="stylesheet" href="hm-vid.css">
+    <link rel="stylesheet" href="reviews.css">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -139,6 +140,92 @@
 
 
     <!-- 3TH SECCTION -->
+    <div class="wt-pp-sy">
+        <div class="wt-pp-sy-wrapper">
+            <div class="wt-pp-sy-title">
+                WHAT PEOPLE ARE SAYING?
+            </div>
+
+            <div id="wt-pp-sy-comments" class="wt-pp-sy-comments">
+
+                <div class="com-container">
+                    <span class="comillas comll-1">"</span>
+                    <p class="quote">
+                        Our group had a great time at Scuba Hunt. If you are looking to try a new challenge underwater,
+                        they add a whole new twist to the underwater world.
+                        <cite class="cite">
+                            - Bret
+                        </cite>
+                    </p>
+                    <span class="comillas comll-2">"</span>
+                </div>
+                <div class="com-container">
+                    <span class="comillas comll-1">"</span>
+                    <p class="quote">
+                        If you're looking for somewhere to treat you like family, this is the place. The crew was
+                        amazing and patient. The scavenger hunt and clues were challenging but A LOT of fun!! I would do
+                        this adventure again and again.
+                        <cite class="cite">
+                            - Tiffany
+                        </cite>
+                </div>
+                </p>
+                <span class="comillas comll-2">"</span>
+
+                <div class="com-container">
+                    <span class="comillas comll-1">"</span>
+                    <p class="quote">
+                        I cannot say enough great things about this adventure! Was way better than even my expectations.
+                        Highly recommend it if you like puzzles, scavenger hunts, diving lol! Such a great way to
+                        improve your buoyancy, navigation, and underwater communication.
+                        <cite class="cite">
+                            - Caitlin
+                        </cite>
+                    </p>
+                    <span class="comillas comll-2">"</span>
+
+                </div>
+                <div class="com-container">
+                    <span class="comillas comll-1">"</span>
+                    <p class="quote">
+                        Our family of four had an outstanding time competing against each other at SCUBA hunt! Also, its
+                        location at Hemingway is awesome as that is a cool spot to eat, drink, and hang out before or
+                        after.
+                        <cite class="cite">
+                            - Allen
+                        </cite>
+                    </p>
+                    <span class="comillas comll-2">"</span>
+
+                </div>
+                <div class="com-container">
+                    <span class="comillas comll-1">"</span>
+                    <p class="quote">
+                        The Scuba hunt team is super professional, safety is their priority, the equipment they are
+                        using is brand new and excellent. After the game, you can chill and watch the sunset in one of
+                        the most popular beach bars in Cozumel.
+                        <cite class="cite">
+                            - Laura
+                        </cite>
+                    </p>
+                    <span class="comillas comll-2">"</span>
+
+                </div>
+            </div>
+            <div class="btn-container">
+                <button id="rev-selector1" class="se-btn"></button>
+                <button id="rev-selector2" class="se-btn"></button>
+                <button id="rev-selector3" class="se-btn"></button>
+                <button id="rev-selector4" class="se-btn"></button>
+                <button id="rev-selector5" class="se-btn"></button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- FOURTH SECCTION -->
     <div class="pricing">
         <div class="pricing-wrapper">
             <div class="pricing-title">
@@ -175,6 +262,7 @@
             </div>
         </div>
     </div>
+
 
 
 
@@ -227,13 +315,14 @@
             videoFile.currentTime = 0;
         }
         )
-        
+
         videoFile.addEventListener('click', () => {
             videoFile.css('background-image', ' <<');
         }
         )
 
     </script>
+    <script type="text/javascript" src="reviews.js"></script>
 </body>
 
 </html>
