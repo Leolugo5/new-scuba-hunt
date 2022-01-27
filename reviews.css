@@ -53,8 +53,8 @@
       -ms-flex-direction: row;
           flex-direction: row;
   width: 500%;
-  -webkit-transition: all ease-in-out;
-  transition: all ease-in-out;
+  -webkit-transition: all ease-in-out .8s;
+  transition: all ease-in-out .8s;
 }
 
 .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container {
