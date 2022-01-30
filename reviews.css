@@ -9,11 +9,9 @@
     font-family: 'Urbanist', sans-serif; 
 */
 .wt-pp-sy {
-  background-color: white;
+  background-color: #f7f7f7;
   color: black;
-  min-width: -webkit-min-content;
-  min-width: -moz-min-content;
-  min-width: min-content;
+  min-width: 100%;
   min-height: -webkit-min-content;
   min-height: -moz-min-content;
   min-height: min-content;
@@ -52,15 +50,19 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 500%;
-  -webkit-transition: all ease-in-out .8s;
-  transition: all ease-in-out .8s;
+  width: 100%;
+  -webkit-transition: all ease-in-out 0.8s;
+  transition: all ease-in-out 0.8s;
+}
+
+.wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments div.carousel-indicators > * {
+  background-color: black;
 }
 
 .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container {
   padding: 0 3rem;
-  width: 100%;
-  margin: 1em;
+  width: 80%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,7 +75,7 @@
 .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .quote {
   text-align: center;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 170%;
   word-break: break-all;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,41 +109,37 @@
 }
 
 .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comll-1 {
-  margin-left: 5%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comll-2 {
-  margin-left: 95%;
+  padding-left: 80%;
 }
 
-.wt-pp-sy .wt-pp-sy-wrapper .btn-container {
-  margin: 0 auto;
-}
-
-.wt-pp-sy .wt-pp-sy-wrapper .btn-container .se-btn {
-  cursor: pointer;
-  margin: 10px;
-  width: 28px;
-  height: 28px;
-  border-style: none;
-  border-radius: 50%;
-  background-color: #fcba00;
-  box-shadow: 3px 3px 0px 0px black;
-  -webkit-box-shadow: 3px 3px 0px 0px black;
-  -moz-box-shadow: 3px 3px 0px 0px black;
-}
-
-.wt-pp-sy .wt-pp-sy-wrapper .btn-container .se-btn:hover {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
-}
-
-.wt-pp-sy .wt-pp-sy-wrapper .btn-container .se-btn:hover:active {
-  -webkit-transition: all 0.01s ease;
-  transition: all 0.01s ease;
-  background-color: black;
-  box-shadow: 3px 3px 0px 0px #fcba00;
-  -webkit-box-shadow: 3px 3px 0px 0px #fcba00;
-  -moz-box-shadow: 3px 3px 0px 0px #fcba00;
+@media screen and (max-width: 720px) {
+  .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-title {
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 6vh;
+  }
+  .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container {
+    padding: 0;
+  }
+  .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .quote {
+    font-size: 120%;
+    word-break: keep-all;
+  }
+  .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .quote .cite {
+    padding-top: 1em;
+    font-size: 1.6rem;
+  }
+  .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comillas {
+    font-size: 5.5rem;
+  }
+  .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comll-2 {
+    padding-left: 80%;
+  }
 }
 /*# sourceMappingURL=reviews.css.map */

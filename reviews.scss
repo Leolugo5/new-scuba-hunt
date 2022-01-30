@@ -1,9 +1,9 @@
 @import "params";
 
 .wt-pp-sy {
-    background-color: $color_blanco_W;
+    background-color: $color_blanco;
     color: $color_dark1;
-    min-width: min-content;
+    min-width: 100%;
     min-height: min-content;
     width: 100%;
     max-height: 100%;
@@ -26,21 +26,25 @@
         .wt-pp-sy-comments {
             display: flex;
             flex-direction: row;
-            width: 500%;
-            transition: all ease-in-out .8s;
-            
+            width: 100%;
+            transition: all ease-in-out 0.8s;
+
+
+            div.carousel-indicators > * {
+                background-color: $color_dark1;
+            }
 
             .com-container {
                 padding: 0 3rem;
-                width: 100%;
-                margin: 1em;
+                width: 80%;
+                margin: 0 auto;
                 display: flex;
                 flex-direction: column;
 
                 .quote {
                     text-align: center;
                     font-weight: 500;
-                    font-size: 1.5rem;
+                    font-size: 170%;
                     word-break: break-all;
                     display: flex;
                     flex-direction: column;
@@ -63,35 +67,43 @@
                     text-shadow: 5px 3px 0px $color_primario;
                 }
                 .comll-1 {
-                    margin-left: 5%;
+                    justify-content: flex-start;
                 }
                 .comll-2 {
-                    margin-left: 95%;
+                    padding-left: 80%;
                 }
             }
         }
-        .btn-container {
-            margin: 0 auto;
-            .se-btn {
-                cursor: pointer;
-                margin: 10px;
-                width: 28px;
-                height: 28px;
-                border-style: none;
-                border-radius: 50%;
-                background-color: $color_primario;
-                box-shadow: 3px 3px 0px 0px $color_dark1;
-                -webkit-box-shadow: 3px 3px 0px 0px $color_dark1;
-                -moz-box-shadow: 3px 3px 0px 0px $color_dark1;
+    }
+}
 
-                &:hover {
-                    transform: scale(0.95);
-                    &:active {
-                        transition: all 0.01s ease;
-                        background-color: $color_dark1;
-                        box-shadow: 3px 3px 0px 0px $color_primario;
-                        -webkit-box-shadow: 3px 3px 0px 0px $color_primario;
-                        -moz-box-shadow: 3px 3px 0px 0px $color_primario;
+@media screen and (max-width: 720px) {
+    .wt-pp-sy {
+        .wt-pp-sy-wrapper {
+            .wt-pp-sy-title {
+                text-align: center;
+                font-family: $font_primario;
+                font-size: 6vh;
+            }
+
+            .wt-pp-sy-comments {
+                
+                .com-container {
+                    padding: 0;
+                    .quote {
+                        font-size: 120%;
+                        word-break: keep-all;
+
+                        .cite {
+                            padding-top: 1em;
+                            font-size: 1.6rem;
+                        }
+                    }
+                    .comillas {
+                        font-size: 5.5rem;
+                    }
+                    .comll-2 {
+                        padding-left: 80%;
                     }
                 }
             }

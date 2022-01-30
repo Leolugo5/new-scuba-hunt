@@ -38,7 +38,6 @@ const btn5 = document.getElementById('rev-selector5')
 const comCont = document.getElementById('wt-pp-sy-comments')
 
 btn1.addEventListener('click', () => {
-    console.log("hola mundo btn#1")
     comCont.style.cssText = 'margin-left: 0;'
 }
 )
@@ -59,3 +58,17 @@ btn5.addEventListener('click', () => {
 }
 )
 
+const autoSlider = () => {
+
+    var sliderCounter = 0;
+    var sliderLength = 4
+
+    if (sliderLength > 4) {
+        
+        for (let i = 0; i < sliderLenth.length; i ++) {
+            let marginValue = 100
+            comCont.style.cssText = `margin-left: -${marginValue}%;`
+        }
+    }
+
+}
