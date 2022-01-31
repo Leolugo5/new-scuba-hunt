@@ -65,12 +65,11 @@
           align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
-  background-color: tomato;
+  gap: 3em;
 }
 
 .the-game .the-game-wrapper .the-g-content-wrapper .th-g-content {
   width: 100%;
-  background-color: teal;
   font-weight: 500;
   font-size: 180%;
   word-break: break-all;
@@ -103,10 +102,6 @@
 
 .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .th-b {
   min-width: 100%;
-  background-color: green;
-}
-
-.the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .th-b-span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,13 +109,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: start;
+  padding-left: 25%;
+  gap: 1.5em;
 }
 
 .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .th-b-span .icon-desc {
@@ -131,5 +124,81 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: left;
+}
+
+@media screen and (max-width: 720px) {
+  .the-game {
+    width: 100%;
+  }
+  .the-game .the-game-wrapper {
+    width: 100%;
+  }
+  .the-game .the-game-wrapper .the-game-title .the-game-h2 {
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 6vh;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper {
+    width: 95%;
+    gap: 3em;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .th-g-content {
+    width: 100%;
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 120%;
+    word-break: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.5em;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .th-b {
+    min-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    gap: 1.5em;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .th-b-span .icon-desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+  }
 }
 /*# sourceMappingURL=the-game.css.map */
