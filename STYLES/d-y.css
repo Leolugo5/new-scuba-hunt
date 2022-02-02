@@ -42,11 +42,21 @@
   background-color: black;
   color: #fcba00;
   width: 20%;
+  min-width: 220px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: .5em;
   font-size: 3.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .do-you-have-w-tk .d-y-wrapper .book-now .r-arr {

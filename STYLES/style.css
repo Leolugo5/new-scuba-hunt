@@ -62,7 +62,7 @@ body li {
 }
 
 body header .nav {
-  height: 72px;
+  height: 80px;
   z-index: 9990;
   position: fixed;
   top: 0;
@@ -194,7 +194,7 @@ body .home .home-subtitle {
 }
 
 body .home .home-subtitle .home-subtitle-colored {
-  color: #fcba00;
+  color: #f7f7f7;
   font-weight: 900;
   font-size: 2.8vw;
   padding: 1rem;

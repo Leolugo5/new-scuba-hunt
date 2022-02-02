@@ -69,4 +69,10 @@
 .contact .contact-wrapper ul .loc {
   word-wrap: break-word;
 }
+
+@media screen and (max-width: 720px) {
+  .contact ol, .contact ul {
+    padding: .5rem;
+  }
+}
 /*# sourceMappingURL=contact.css.map */

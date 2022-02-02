@@ -1,0 +1,24 @@
+@import 'params';
+
+.site-by-leo {
+    background-color: $color_dark1;
+    height: 50px;
+    .leo-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        color: $color_blanco;
+        a {
+            color: $color_primario;
+            text-decoration: underline;
+            padding: 0 8px;
+            &:hover {
+                color: $color_blanco;
+                text-decoration: none;
+            }
+        }
+    }
+}

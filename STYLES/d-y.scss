@@ -23,9 +23,13 @@
             background-color: $color_dark1;
             color: $color_primario;
             width: 20%;
+            min-width: 220px;
             height: max-content;
             padding: .5em;
             font-size: 3.5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             .r-arr {
                 height: 50px;

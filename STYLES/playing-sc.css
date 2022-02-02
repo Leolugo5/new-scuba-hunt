@@ -46,7 +46,10 @@
 
 .playing-sc .play-sc-wrapper .play-sc-body .cards {
   width: 33.3333333333%;
-  height: 78vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  height: 85vh;
   border-radius: 3px;
   text-align: center;
   -webkit-perspective: 1000px;
@@ -60,6 +63,9 @@
   position: relative;
   width: 100%;
   height: 100%;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   text-align: center;
   -webkit-transition: -webkit-transform 0.6s;
   transition: -webkit-transform 0.6s;
@@ -101,6 +107,10 @@
   display: none;
 }
 
+.playing-sc .play-sc-wrapper .play-sc-body .card-inner .card-back .card-body p {
+  width: 90%;
+}
+
 .playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
@@ -127,11 +137,13 @@
   font-weight: 300;
 }
 
-.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .title {
-  padding: 2rem 0;
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-front .title,
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-back .title {
+  padding-bottom: 0;
 }
 
-.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-body {
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-front .card-body,
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-back .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,10 +159,15 @@
           align-items: center;
 }
 
-.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-body p {
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-front .card-body p,
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-back .card-body p {
   width: 75%;
   font-size: 1rem;
   font-weight: 500;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .title {
+  padding: 2rem 0;
 }
 
 .playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-front {
@@ -203,6 +220,26 @@
     -webkit-perspective: 1000px;
             perspective: 1000px;
     position: relative;
+  }
+  .playing-sc .play-sc-wrapper .play-sc-body .cards .card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .playing-sc .play-sc-wrapper .play-sc-body .cards .card-body p {
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 500;
   }
 }
 /*# sourceMappingURL=playing-sc.css.map */
