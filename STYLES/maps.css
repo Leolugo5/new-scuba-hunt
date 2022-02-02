@@ -1,0 +1,26 @@
+/* COLORS */
+/* SIZES */
+/* FONTS */
+/*     
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Urbanist', sans-serif; 
+*/
+.map-section {
+  width: 100%;
+}
+
+.map-section .map-wrapper {
+  width: 100%;
+  height: 50vh;
+}
+
+.map-section .map-wrapper #gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=maps.css.map */

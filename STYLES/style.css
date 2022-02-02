@@ -52,7 +52,7 @@ h4 {
 }
 
 body {
-  color: #a6a6a6;
+  color: #cfcfcf81;
   background-color: black;
   height: 3000px;
 }
@@ -283,7 +283,7 @@ body .pricing .pricing-wrapper .pricing-body .pricing-rental {
 }
 
 /* RESPONSIVE 720 */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 800px) {
   body header .open-off {
     display: none;
   }

@@ -1,0 +1,64 @@
+/* COLORS */
+/* SIZES */
+/* FONTS */
+/*     
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Urbanist', sans-serif; 
+*/
+.do-you-have-w-tk .d-y-wrapper {
+  padding: 5rem 0;
+  background-color: #fcba00;
+  color: black;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.do-you-have-w-tk .d-y-wrapper .d-y-title {
+  text-align: center;
+  font-size: 6vh;
+  letter-spacing: 4px;
+}
+
+.do-you-have-w-tk .d-y-wrapper .book-now {
+  background-color: black;
+  color: #fcba00;
+  width: 20%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: .5em;
+  font-size: 3.5vh;
+}
+
+.do-you-have-w-tk .d-y-wrapper .book-now .r-arr {
+  height: 50px;
+  width: 50px;
+}
+
+.do-you-have-w-tk .d-y-wrapper .book-now:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 5px solid black;
+  background-color: #fcba00;
+  color: black;
+}
+/*# sourceMappingURL=d-y.css.map */

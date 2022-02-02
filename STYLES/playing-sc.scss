@@ -1,0 +1,133 @@
+@import "params";
+
+.playing-sc {
+    width: 100%;
+    background-color: $color_blanco_W;
+    color: $color_dark1;
+
+    .play-sc-wrapper {
+        width: 100%;
+        padding: 5rem 0;
+
+        .play-sc-h2 {
+            text-align: center;
+            font-size: 6vh;
+        }
+        .play-sc-body {
+            width: 100%;
+            display: flex;
+            padding: 5rem 0;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+
+            /* CARDS STYLES */
+            .cards {
+                width: 33.3333333333%;
+                height: 78vh;
+                border-radius: 3px;
+                text-align: center;
+                perspective: 1000px;
+                position: relative;
+            }
+
+            .card-inner {
+                transform-style: preserve-3d;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                transition: transform 0.6s;
+                transform-style: preserve-3d;
+                border: 3px solid transparent;
+                box-shadow: 0 4px 8px 0 #00000033;
+
+                .card-front {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+
+                    .title-card {
+                        color: $color_dark1;
+                        border-left: 20px $color_primario;
+                        background-color: $color_flip_card;
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+
+                        .title {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            border-left: 0.8rem solid $color_primario;
+                            padding-left: 0.2rem;
+
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+
+                .card-back {
+                    display: none;
+                }
+            }
+
+            /* FIPED EFFECT */
+            .cards:hover .card-inner {
+                transform: rotateY(180deg);
+                transition-duration: 1s;
+
+                .card-front,
+                .card-back {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    color: $color_blanco_W;
+                    background-color: $color_flip_card_2;
+                    transform: rotateY(180deg);
+
+                    display: flex;
+                    flex-direction: column;
+                    font-weight: 300;
+                }
+
+                .title {
+                    padding: 2rem 0;
+                }
+                .card-body {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        width: 75%;
+                        font-size: 1rem;
+                        font-weight: 500;
+                    }
+                }
+                .card-front {
+                    display: none;
+                }
+            }
+
+            .c-w-p {
+                background: url("../media/Images/P1010092.jpg");
+                background-color: transparent;
+                background-size: cover;
+            }
+
+            .c-c-l {
+                background: url(../media/wetransfer_hemingway-jpeg_2022-02-01_0142/hemingway.jpeg);
+                background-color: transparent;
+                background-size: cover;
+            }
+            .c-s-f {
+                background: url(../media/wetransfer_hemingway-jpeg_2022-02-01_0142/buoy.jpeg);
+                background-color: transparent;
+                background-size: cover;
+            }
+        }
+    }
+}

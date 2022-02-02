@@ -1,0 +1,177 @@
+/* COLORS */
+/* SIZES */
+/* FONTS */
+/*     
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Urbanist', sans-serif; 
+*/
+.playing-sc {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.playing-sc .play-sc-wrapper {
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-h2 {
+  text-align: center;
+  font-size: 6vh;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* CARDS STYLES */
+  /* FIPED EFFECT */
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .cards {
+  width: 33.3333333333%;
+  height: 78vh;
+  border-radius: 3px;
+  text-align: center;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  position: relative;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .card-inner {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  transform-style: preserve-3d;
+  border: 3px solid transparent;
+  -webkit-box-shadow: 0 4px 8px 0 #00000033;
+          box-shadow: 0 4px 8px 0 #00000033;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .card-inner .card-front {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .card-inner .card-front .title-card {
+  color: black;
+  border-left: 20px #fcba00;
+  background-color: #ffffffc5;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .card-inner .card-front .title-card .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-left: 0.8rem solid #fcba00;
+  padding-left: 0.2rem;
+  font-size: 1.5rem;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .card-inner .card-back {
+  display: none;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-front,
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #000000af;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 300;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .title {
+  padding: 2rem 0;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-body p {
+  width: 75%;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .cards:hover .card-inner .card-front {
+  display: none;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .c-w-p {
+  background: url("../media/Images/P1010092.jpg");
+  background-color: transparent;
+  background-size: cover;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .c-c-l {
+  background: url(../media/wetransfer_hemingway-jpeg_2022-02-01_0142/hemingway.jpeg);
+  background-color: transparent;
+  background-size: cover;
+}
+
+.playing-sc .play-sc-wrapper .play-sc-body .c-s-f {
+  background: url(../media/wetransfer_hemingway-jpeg_2022-02-01_0142/buoy.jpeg);
+  background-color: transparent;
+  background-size: cover;
+}
+/*# sourceMappingURL=playing-sc.css.map */

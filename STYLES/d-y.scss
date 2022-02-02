@@ -1,0 +1,42 @@
+@import "params";
+
+.do-you-have-w-tk {
+    .d-y-wrapper {
+        padding: 5rem 0;
+        background-color: $color_primario;
+        color: $color_dark1;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        justify-content: space-evenly;
+
+        .d-y-title {
+            text-align: center;
+            font-size: 6vh;
+            letter-spacing: 4px;
+        }
+
+        .book-now {
+            background-color: $color_dark1;
+            color: $color_primario;
+            width: 20%;
+            height: max-content;
+            padding: .5em;
+            font-size: 3.5vh;
+
+            .r-arr {
+                height: 50px;
+                width: 50px;
+            }
+            &:hover {
+                box-sizing: border-box;
+                outline: 5px solid $color_dark1;
+                background-color: $color_primario;
+                color: $color_dark1;
+            }
+        }
+    }
+}

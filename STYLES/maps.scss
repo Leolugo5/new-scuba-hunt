@@ -1,0 +1,16 @@
+@import "params";
+
+.map-section {
+    width: 100%;
+    .map-wrapper {
+        width: 100%;
+        height: 50vh;
+
+        #gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
