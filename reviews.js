@@ -25,18 +25,3 @@ btn5.addEventListener('click', () => {
     comCont.style.cssText = 'margin-left: -400%;'
 }
 )
-
-const autoSlider = () => {
-
-    var sliderCounter = 0;
-    var sliderLength = 4
-
-    if (sliderLength > 4) {
-        
-        for (let i = 0; i < sliderLenth.length; i ++) {
-            let marginValue = 100
-            comCont.style.cssText = `margin-left: -${marginValue}%;`
-        }
-    }
-
-}

@@ -131,3 +131,33 @@
         }
     }
 }
+
+@media screen and(max-width: 720px) {
+    .playing-sc {
+        width: 100%;
+        background-color: $color_blanco_W;
+        color: $color_dark1;
+    
+        .play-sc-wrapper {
+            width: 100%;
+            padding: 5rem 0;
+    
+            .play-sc-h2 {
+                text-align: center;
+                font-size: 6vh;
+            }
+            .play-sc-body {
+                flex-direction: column;
+
+                .cards {
+                    width: 90%;
+                    height: 78vh;
+                    border-radius: 3px;
+                    text-align: center;
+                    perspective: 1000px;
+                    position: relative;
+                }
+            }
+        }
+    }
+}

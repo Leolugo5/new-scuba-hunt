@@ -174,4 +174,35 @@
   background-color: transparent;
   background-size: cover;
 }
+
+@media screen and (max-width: 720px) {
+  .playing-sc {
+    width: 100%;
+    background-color: white;
+    color: black;
+  }
+  .playing-sc .play-sc-wrapper {
+    width: 100%;
+    padding: 5rem 0;
+  }
+  .playing-sc .play-sc-wrapper .play-sc-h2 {
+    text-align: center;
+    font-size: 6vh;
+  }
+  .playing-sc .play-sc-wrapper .play-sc-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .playing-sc .play-sc-wrapper .play-sc-body .cards {
+    width: 90%;
+    height: 78vh;
+    border-radius: 3px;
+    text-align: center;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+    position: relative;
+  }
+}
 /*# sourceMappingURL=playing-sc.css.map */
