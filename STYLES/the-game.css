@@ -311,6 +311,64 @@
             flex-direction: column;
     text-align: left;
   }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol {
+    margin-top: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: .4em;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .book-now {
+    outline: 2px solid black;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .policy-link {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .policy-link:hover {
+    text-decoration: none;
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .pol-off {
+    display: none;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .pol-on {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .policy-container {
+    position: relative;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .policy-container .policy-wrapper {
+    width: 95vw;
+    height: 80vh;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .policy-container .policy-wrapper .close-btn {
+    right: 5%;
+    top: 2%;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .policy-container .policy-wrapper .policy .pol-title {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: -1em;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .policy-container .policy-wrapper .policy .pol-center {
+    margin-top: 10%;
+    width: 95%;
+    gap: 1rem;
+  }
+  .the-game .the-game-wrapper .the-g-content-wrapper .the-g-bottom .book-pol .policy-container .policy-wrapper .policy .pol-center .pol-item {
+    font-size: 15px;
+  }
 }
 
 /* RESPONSIVE 480 */
