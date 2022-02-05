@@ -1,5 +1,40 @@
 @import "params";
 
+.quote-m {
+    width: 120px;
+    height: 77px;
+}
+.quote-link {
+    text-decoration: none;
+    color: $color_dark1;
+    &:hover {
+        color: $color_dark1;
+    }
+    text-align: center;
+}
+
+.rv-btn-style {
+    background-color: $color_dark1;
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50%;
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+    position: relative;
+    .btn-in {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        height: 60%;
+        background-color: $color_primario;
+        border-radius: 50%;
+    }
+}
+
 .wt-pp-sy {
     background-color: $color_blanco;
     color: $color_dark1;
@@ -28,7 +63,6 @@
             flex-direction: row;
             width: 100%;
             transition: all ease-in-out 0.8s;
-
 
             div.carousel-indicators > * {
                 background-color: $color_dark1;
@@ -82,20 +116,21 @@
             }
 
             .reviews-links {
-                padding-top: 1.5rem;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
                 gap: 1.5em;
-                
+
                 .rev-lin-card {
-                    
-                    .rev-img {
-                        cursor: pointer;
-                        max-height: 80px;
-                        &:hover {
-                            transform: scale(.99);
+                    .rev-a-link {
+                        width: fit-content;
+                        height: fit-content;
+                        height: 120px;
+                        
+                        .rev-img {
+                            height: 100%;
+                            max-height: 150px;
                         }
                     }
                 }
@@ -114,7 +149,6 @@
             }
 
             .wt-pp-sy-comments {
-                
                 .com-container {
                     padding: 0;
                     .quote {
@@ -140,7 +174,7 @@
                     text-align: center;
                     font-size: 4vh;
                 }
-    
+
                 .reviews-links {
                     padding-top: 2rem;
                     display: flex;
@@ -148,15 +182,14 @@
                     flex-wrap: wrap;
                     align-items: center;
                     justify-content: center;
-                    gap: .7em;
-                    
+                    gap: 0.7em;
+
                     .rev-lin-card {
-                        
                         .rev-img {
                             cursor: pointer;
                             max-height: 100px;
                             &:hover {
-                                transform: scale(.99);
+                                transform: scale(0.99);
                             }
                         }
                     }

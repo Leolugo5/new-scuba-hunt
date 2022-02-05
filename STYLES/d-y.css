@@ -9,7 +9,7 @@
     font-family: 'Urbanist', sans-serif; 
 */
 .do-you-have-w-tk .d-y-wrapper {
-  padding: 5rem 0;
+  padding: 3rem 0;
   background-color: #fcba00;
   color: black;
   text-align: center;
@@ -46,8 +46,8 @@
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  padding: .5em;
-  font-size: 3.5vh;
+  padding: .5em 1.5em;
+  font-size: 3vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

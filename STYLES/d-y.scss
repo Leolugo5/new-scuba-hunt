@@ -2,7 +2,7 @@
 
 .do-you-have-w-tk {
     .d-y-wrapper {
-        padding: 5rem 0;
+        padding: 3rem 0;
         background-color: $color_primario;
         color: $color_dark1;
         text-align: center;
@@ -25,8 +25,8 @@
             width: 20%;
             min-width: 220px;
             height: max-content;
-            padding: .5em;
-            font-size: 3.5vh;
+            padding: .5em 1.5em;
+            font-size: 3vh;
             display: flex;
             justify-content: center;
             align-items: center;

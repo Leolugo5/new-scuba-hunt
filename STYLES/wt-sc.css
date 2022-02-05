@@ -86,20 +86,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.wt-i-sc-h .wt-i-sc-h-wrapper .wt-body .wt-sect .wt-imgs {
-  margin: 0 auto;
-  width: 80px;
-  height: 80px;
-  background-color: #fcba00;
 }
 
 .wt-i-sc-h .wt-i-sc-h-wrapper .wt-body .wt-sect .wt-img {
-  width: 100%;
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
   aspect-ratio: 1/1;
 }

@@ -7,16 +7,12 @@
 
     .play-sc-wrapper {
         width: 100%;
-        padding: 5rem 0;
+        padding: 0;
 
-        .play-sc-h2 {
-            text-align: center;
-            font-size: 6vh;
-        }
         .play-sc-body {
             width: 100%;
             display: flex;
-            padding: 5rem 0;
+            padding: 0;
             align-items: center;
             flex-direction: row;
             justify-content: center;
@@ -116,7 +112,7 @@
                 }
 
                 .title {
-                    padding: 2rem 0;
+                    padding: 5rem 0;
                 }
                 
                 .card-front {
@@ -125,19 +121,22 @@
             }
 
             .c-w-p {
-                background: url("../media/Images/P1010092.jpg");
+                background: url("../media/Images/c-w-p.jpg");
                 background-color: transparent;
+                background-position: center;
                 background-size: cover;
             }
-
+            
             .c-c-l {
                 background: url(../media/wetransfer_hemingway-jpeg_2022-02-01_0142/hemingway.jpeg);
                 background-color: transparent;
+                background-position: center;
                 background-size: cover;
             }
             .c-s-f {
                 background: url(../media/wetransfer_hemingway-jpeg_2022-02-01_0142/buoy.jpeg);
                 background-color: transparent;
+                background-position: center;
                 background-size: cover;
             }
         }

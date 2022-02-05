@@ -8,6 +8,45 @@
 
     font-family: 'Urbanist', sans-serif; 
 */
+.quote-m {
+  width: 120px;
+  height: 77px;
+}
+
+.quote-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.quote-link:hover {
+  color: black;
+}
+
+.rv-btn-style {
+  background-color: black;
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+  position: relative;
+}
+
+.carousel-indicators .active .btn-in {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  background-color: #fcba00;
+  border-radius: 50%;
+}
+
 .wt-pp-sy {
   background-color: #f7f7f7;
   color: black;
@@ -125,7 +164,6 @@
 }
 
 .wt-pp-sy .wt-pp-sy-wrapper .reviews .reviews-links {
-  padding-top: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,14 +180,19 @@
   gap: 1.5em;
 }
 
-.wt-pp-sy .wt-pp-sy-wrapper .reviews .reviews-links .rev-lin-card .rev-img {
-  cursor: pointer;
-  max-height: 80px;
+.wt-pp-sy .wt-pp-sy-wrapper .reviews .reviews-links .rev-lin-card .rev-a-link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  height: 120px;
 }
 
-.wt-pp-sy .wt-pp-sy-wrapper .reviews .reviews-links .rev-lin-card .rev-img:hover {
-  -webkit-transform: scale(0.99);
-          transform: scale(0.99);
+.wt-pp-sy .wt-pp-sy-wrapper .reviews .reviews-links .rev-lin-card .rev-a-link .rev-img {
+  height: 100%;
+  max-height: 150px;
 }
 
 @media screen and (max-width: 720px) {
@@ -197,7 +240,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: .7em;
+    gap: 0.7em;
   }
   .wt-pp-sy .wt-pp-sy-wrapper .reviews .reviews-links .rev-lin-card .rev-img {
     cursor: pointer;

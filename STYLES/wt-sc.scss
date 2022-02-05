@@ -42,17 +42,10 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                justify-content: space-evenly;
-
-
-                .wt-imgs {
-                    margin: 0 auto;
-                    width: 80px;
-                    height: 80px;
-                    background-color: $color_primario;
-                }
+                
                 .wt-img {
-                    width: 100%;
+                    width:150px;
+                    height: 150px;
                     margin: 0 auto;
                     aspect-ratio: 1/1;
                 }
