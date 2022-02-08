@@ -20,5 +20,17 @@
                 text-decoration: none;
             }
         }
+
+        .leo-profile {
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .space {
+            width: 1px;
+            height: 40%;
+            margin: 0 .5rem;
+            background-color: $color_blanco_W;
+        }
     }
 }

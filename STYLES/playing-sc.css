@@ -170,27 +170,27 @@
 }
 
 .playing-sc .play-sc-wrapper .play-sc-body .c-w-p {
-  background: url("../media/Images/c-w-p.jpg");
+  background: url("../media/Images/C-W-P-2.jpg");
   background-color: transparent;
   background-position: center;
   background-size: cover;
 }
 
 .playing-sc .play-sc-wrapper .play-sc-body .c-c-l {
-  background: url(../media/wetransfer_hemingway-jpeg_2022-02-01_0142/hemingway.jpeg);
+  background: url("../media/wetransfer_hemingway-jpeg_2022-02-01_0142/hemingway.jpeg");
   background-color: transparent;
   background-position: center;
   background-size: cover;
 }
 
 .playing-sc .play-sc-wrapper .play-sc-body .c-s-f {
-  background: url(../media/wetransfer_hemingway-jpeg_2022-02-01_0142/buoy.jpeg);
+  background: url("../media/wetransfer_hemingway-jpeg_2022-02-01_0142/buoy.jpeg");
   background-color: transparent;
   background-position: center;
   background-size: cover;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 980px) {
   .playing-sc {
     width: 100%;
     background-color: white;

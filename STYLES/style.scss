@@ -39,6 +39,10 @@ body {
     li {
         list-style: none;
     }
+    .links-img {
+        text-decoration: $link_img;
+        color: inherit;
+    }
 
     header {
         .nav {

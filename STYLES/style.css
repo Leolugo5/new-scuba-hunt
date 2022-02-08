@@ -61,6 +61,11 @@ body li {
   list-style: none;
 }
 
+body .links-img {
+  text-decoration: none;
+  color: inherit;
+}
+
 body header .nav {
   height: 80px;
   z-index: 9990;
