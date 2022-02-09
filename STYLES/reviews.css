@@ -215,8 +215,16 @@
   .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comillas {
     font-size: 5.5rem;
   }
+  .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comillas .quote-m {
+    width: 90px;
+    height: 50px;
+  }
   .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comll-2 {
-    padding-left: 80%;
+    padding-left: 70%;
+  }
+  .wt-pp-sy .wt-pp-sy-wrapper .wt-pp-sy-comments .com-container .comll-2 .quote-m {
+    width: 90px;
+    height: 50px;
   }
   .wt-pp-sy .wt-pp-sy-wrapper .reviews .reviews-h2 {
     padding-top: 2rem;

@@ -25,12 +25,30 @@
             font-size: 15px;
             font-weight: 400;
         }
+        span {
+            padding: 0 .2em;
+        }
+    }
+}
 
-        .space {
-            width: 1px;
-            height: 40%;
-            margin: 0 .5rem;
-            background-color: $color_blanco_W;
+@media screen and (max-width: 720px) {
+    .site-by-leo {
+        background-color: black;
+        height: fit-content;
+        padding: 1em 0.5em;
+        text-align: center;
+        font-size: 13px;
+        
+        .leo-wrapper {
+            height: inherit;
+            min-height: fit-content;
+            flex-direction: column;
+            padding: 1em .5em;
+
+            .leo-profile {
+                font-size: 13px;
+                font-weight: 300;
+            }
         }
     }
 }

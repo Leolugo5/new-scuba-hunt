@@ -77,12 +77,25 @@
 
 .footer .footer-wrapper .footer-list .content:hover {
   color: #fcba00;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer .footer-wrapper .footer-list .last {
   padding: 0;
   border: none;
+}
+
+@media screen and (max-width: 720px) {
+  .footer .footer-wrapper .logo-container {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer .footer-wrapper .logo-container .logo {
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

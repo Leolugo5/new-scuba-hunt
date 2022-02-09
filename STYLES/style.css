@@ -64,6 +64,7 @@ body li {
 body .links-img {
   text-decoration: none;
   color: inherit;
+  height: 38px;
 }
 
 body header .nav {
@@ -314,8 +315,12 @@ body .home::after {
 /* RESPONSIVE 480 */
 @media screen and (max-width: 480px) {
   body header .nav-icon {
-    height: 46%;
     margin: 0.2rem;
+  }
+  body header .icons-list {
+    box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2);
   }
 }
 /*# sourceMappingURL=style.css.map */

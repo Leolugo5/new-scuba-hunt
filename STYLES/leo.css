@@ -48,10 +48,34 @@
   font-weight: 400;
 }
 
-.site-by-leo .leo-wrapper .space {
-  width: 1px;
-  height: 40%;
-  margin: 0 .5rem;
-  background-color: white;
+.site-by-leo .leo-wrapper span {
+  padding: 0 .2em;
+}
+
+@media screen and (max-width: 720px) {
+  .site-by-leo {
+    background-color: black;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 1em 0.5em;
+    text-align: center;
+    font-size: 13px;
+  }
+  .site-by-leo .leo-wrapper {
+    height: inherit;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1em .5em;
+  }
+  .site-by-leo .leo-wrapper .leo-profile {
+    font-size: 13px;
+    font-weight: 300;
+  }
 }
 /*# sourceMappingURL=leo.css.map */
