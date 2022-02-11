@@ -1,0 +1,68 @@
+@import 'params';
+
+.ab-home {
+    margin-top: $nav_heigth;
+
+    .bg-img {
+        z-index: 1;
+        width: 100%;
+        min-height: 70vh;
+        position: relative;
+        background-image: url("../media/Images/FAQS-CENTERED.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: $color_blanco;
+
+        text-align: center;
+        padding: 15% 0 0 0;
+
+
+        .ab-title-description {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+
+            .title {
+                font-family: $font_secundario;
+                color: $color_blanco;
+                font-weight: 400;
+                font-size: 3.5rem;
+                letter-spacing: 3px;
+
+            }
+
+            .title-sb {
+                font-family: $font_secundario;
+                color: $color_primario;
+                text-shadow: none;
+                font-weight: 400;
+                font-size: 3.5rem;
+                letter-spacing: 2px;
+            }
+        }
+
+    }
+
+    .bg-img::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background-color: $faqs_home_bg;
+        mix-blend-mode: darken;
+    }
+}
+
+@media screen and(max-width: 720px) {
+    .ab-home {
+        .bg-img {
+            .ab-title-description {
+                flex-direction: column;
+            }
+        }
+    }
+}

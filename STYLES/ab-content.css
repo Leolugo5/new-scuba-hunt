@@ -1,0 +1,37 @@
+/* COLORS */
+/* SIZES */
+/* FONTS */
+/*     
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Urbanist', sans-serif; 
+*/
+.ab-content {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.ab-content .ab-content-wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.ab-content .ab-content-wrapper .text {
+  padding: 1em 0;
+}
+
+@media screen and (max-width: 720px) {
+  .ab-content {
+    width: 100%;
+  }
+  .ab-content .ab-content-wrapper {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .ab-content .ab-content-wrapper .text {
+    padding: 1em 0;
+  }
+}
+/*# sourceMappingURL=ab-content.css.map */

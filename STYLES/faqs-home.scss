@@ -1,9 +1,9 @@
 @import 'params';
 
 .faqs-home {
-    position: relative;
+    margin-top: $nav_heigth;
     width: 100%;
-    top: $nav_heigth;
+
     .bg-img {
         z-index: 1;
         width: 100%;
@@ -17,15 +17,16 @@
 
         text-align: center;
         padding: 15% 0 0 0;
+
         .title {
             font-family: $font_secundario;
             color: $color_blanco;
             font-weight: 400;
             font-size: 3.5rem;
             letter-spacing: 3px;
-            
+
         }
-        
+
         .title-sb {
             font-family: $font_secundario;
             color: $color_primario;
@@ -35,12 +36,47 @@
             letter-spacing: 2px;
         }
 
-    }.bg-img::after {
+    }
+
+    .bg-img::after {
         content: "";
         position: absolute;
         inset: 0;
         z-index: -1;
         background-color: $faqs_home_bg;
         mix-blend-mode: darken;
+    }
+
+    .content {
+        width: 100%;
+
+        .table-of-content {
+            width: 60%;
+            margin: 0 auto;
+
+            .questions {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5em;
+                margin: 2rem 0;
+                .question {
+                    border: solid 1px $color_secundario;
+
+                    .title {
+                        font-family: $font_secundario;
+                        font-weight: 500;
+                        padding: .5em;
+                        background-color: $color_primario;
+                        border-bottom: solid 1px $color_secundario;
+                    }
+                    .answer {
+                        .content {
+                            padding: .5em;
+
+                        }
+                    }
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,81 @@
+/* COLORS */
+/* SIZES */
+/* FONTS */
+/*     
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Urbanist', sans-serif; 
+*/
+.ab-home {
+  margin-top: 80px;
+}
+
+.ab-home .bg-img {
+  z-index: 1;
+  width: 100%;
+  min-height: 70vh;
+  position: relative;
+  background-image: url("../media/Images/FAQS-CENTERED.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f7f7f7;
+  text-align: center;
+  padding: 15% 0 0 0;
+}
+
+.ab-home .bg-img .ab-title-description {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em;
+}
+
+.ab-home .bg-img .ab-title-description .title {
+  font-family: "Montserrat", sans-serif;
+  color: #f7f7f7;
+  font-weight: 400;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+}
+
+.ab-home .bg-img .ab-title-description .title-sb {
+  font-family: "Montserrat", sans-serif;
+  color: #fcba00;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
+
+.ab-home .bg-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: #413a3a9d;
+  mix-blend-mode: darken;
+}
+
+@media screen and (max-width: 720px) {
+  .ab-home .bg-img .ab-title-description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=ab-home.css.map */

@@ -1,0 +1,30 @@
+@import 'params'; 
+
+.ab-content {
+    width: 100%;
+    padding: 2rem 0;
+
+    .ab-content-wrapper {
+        width: 60%;
+        margin: 0 auto;
+        
+        .text {
+            padding: 1em 0;
+        }
+    }
+}
+
+@media screen and(max-width: 720px) {
+    .ab-content {
+        width: 100%;
+    
+        .ab-content-wrapper {
+            width: 85%;
+            margin: 0 auto;
+            
+            .text {
+                padding: 1em 0;
+            }
+        }
+    }
+}
