@@ -39,14 +39,14 @@ f1.addEventListener("click", () => {
         answer.classList.remove("answer-off")
         closer.classList.add("rotate45")
         closer.classList.remove("rotate-45")
-        f1.style.backgroundColor = "#cfcfcf81"
+        f1.style.backgroundColor = "#fcba00"
         yoyo = true
     } else {
         answer.classList.add("answer-off")
         answer.classList.remove("answer")
         closer.classList.remove("rotate45")
         closer.classList.add("rotate-45")
-        f1.style.backgroundColor = "#fcba00"
+        f1.style.backgroundColor = "#cfcfcf81"
         yoyo = false
     }
 })
@@ -56,14 +56,14 @@ f2.addEventListener("click", () => {
         answer2.classList.remove("answer-off")
         closer2.classList.add("rotate45")
         closer2.classList.remove("rotate-45")
-        f2.style.backgroundColor = "#cfcfcf81"
+        f2.style.backgroundColor = "#fcba00"
         yoyo2 = true
     } else {
         answer2.classList.add("answer-off")
         answer2.classList.remove("answer")
         closer2.classList.remove("rotate45")
         closer2.classList.add("rotate-45")
-        f2.style.backgroundColor = "#fcba00"
+        f2.style.backgroundColor = "#cfcfcf81"
         yoyo2 = false
     }
 })
@@ -73,14 +73,14 @@ f3.addEventListener("click", () => {
         answer3.classList.remove("answer-off")
         closer3.classList.add("rotate45")
         closer3.classList.remove("rotate-45")
-        f3.style.backgroundColor = "#cfcfcf81"
+        f3.style.backgroundColor = "#fcba00"
         yoyo3 = true
     } else {
         answer3.classList.add("answer-off")
         answer3.classList.remove("answer")
         closer3.classList.remove("rotate45")
         closer3.classList.add("rotate-45")
-        f3.style.backgroundColor = "#fcba00"
+        f3.style.backgroundColor = "#cfcfcf81"
         yoyo3 = false
     }
 })
@@ -90,14 +90,14 @@ f4.addEventListener("click", () => {
         answer4.classList.remove("answer-off")
         closer4.classList.add("rotate45")
         closer4.classList.remove("rotate-45")
-        f4.style.backgroundColor = "#cfcfcf81"
+        f4.style.backgroundColor = "#fcba00"
         yoyo4 = true
     } else {
         answer4.classList.add("answer-off")
         answer4.classList.remove("answer")
         closer4.classList.remove("rotate45")
         closer4.classList.add("rotate-45")
-        f4.style.backgroundColor = "#fcba00"
+        f4.style.backgroundColor = "#cfcfcf81"
         yoyo4 = false
     }
 })
@@ -107,14 +107,14 @@ f5.addEventListener("click", () => {
         answer5.classList.remove("answer-off")
         closer5.classList.add("rotate45")
         closer5.classList.remove("rotate-45")
-        f5.style.backgroundColor = "#cfcfcf81"
+        f5.style.backgroundColor = "#fcba00"
         yoyo5 = true
     } else {
         answer5.classList.add("answer-off")
         answer5.classList.remove("answer")
         closer5.classList.remove("rotate45")
         closer5.classList.add("rotate-45")
-        f5.style.backgroundColor = "#fcba00"
+        f5.style.backgroundColor = "#cfcfcf81"
         yoyo5 = false
     }
 })
@@ -124,14 +124,14 @@ f6.addEventListener("click", () => {
         answer6.classList.remove("answer-off")
         closer6.classList.add("rotate45")
         closer6.classList.remove("rotate-45")
-        f6.style.backgroundColor = "#cfcfcf81"
+        f6.style.backgroundColor = "#fcba00"
         yoyo6 = true
     } else {
         answer6.classList.add("answer-off")
         answer6.classList.remove("answer")
         closer6.classList.remove("rotate45")
         closer6.classList.add("rotate-45")
-        f6.style.backgroundColor = "#fcba00"
+        f6.style.backgroundColor = "#cfcfcf81"
         yoyo6 = false
     }
 })
@@ -141,14 +141,14 @@ f7.addEventListener("click", () => {
         answer7.classList.remove("answer-off")
         closer7.classList.add("rotate45")
         closer7.classList.remove("rotate-45")
-        f7.style.backgroundColor = "#cfcfcf81"
+        f7.style.backgroundColor = "#fcba00"
         yoyo7 = true
     } else {
         answer7.classList.add("answer-off")
         answer7.classList.remove("answer")
         closer7.classList.remove("rotate45")
         closer7.classList.add("rotate-45")
-        f7.style.backgroundColor = "#fcba00"
+        f7.style.backgroundColor = "#cfcfcf81"
         yoyo7 = false
     }
 })
@@ -158,14 +158,14 @@ f8.addEventListener("click", () => {
         answer8.classList.remove("answer-off")
         closer8.classList.add("rotate45")
         closer8.classList.remove("rotate-45")
-        f8.style.backgroundColor = "#cfcfcf81"
+        f8.style.backgroundColor = "#fcba00"
         yoyo8 = true
     } else {
         answer8.classList.add("answer-off")
         answer8.classList.remove("answer")
         closer8.classList.remove("rotate45")
         closer8.classList.add("rotate-45")
-        f8.style.backgroundColor = "#fcba00"
+        f8.style.backgroundColor = "#cfcfcf81"
         yoyo8 = false
     }
 })
