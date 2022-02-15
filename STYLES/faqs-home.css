@@ -76,6 +76,8 @@
   font-weight: 300;
   padding: 1.5em;
   text-align: center;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
 }
 
 .faqs-home .content .table-of-content {
@@ -115,10 +117,11 @@
 .faqs-home .content .table-of-content .questions .question .main-section .title {
   font-family: "Anton", sans-serif;
   font-weight: 500;
-  font-size: 1.5em;
+  overflow-wrap: break-word;
+  font-size: 16px;
   padding: .5em;
   background-color: #cfcfcf81;
-  border-bottom: solid 1px #cfcfcf81;
+  border: solid 1px #cfcfcf81;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,6 +141,7 @@
 
 .faqs-home .content .table-of-content .questions .question .answer .content {
   padding: .7em 1em;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 720px) {

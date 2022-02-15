@@ -64,6 +64,7 @@
             font-weight: 300;
             padding: 1.5em;
             text-align: center;
+            transition: all ease-in-out .3s;
         }
 
         .table-of-content {
@@ -89,10 +90,11 @@
                         .title {
                             font-family: $font_primario;
                             font-weight: 500;
-                            font-size: 1.5em;
+                            overflow-wrap: break-word;
+                            font-size: 16px;
                             padding: .5em;
                             background-color: $color_secundario;
-                            border-bottom: solid 1px $color_secundario;
+                            border: solid 1px $color_secundario;
                             display: flex;
                             justify-content: space-between;
                             width: 100%;
@@ -102,6 +104,7 @@
 
                     .answer-off {
                         display: none;
+                        
                     }
 
                     .answer {
@@ -109,7 +112,7 @@
 
                         .content {
                             padding: .7em 1em;
-
+                            font-size: 18px;
                         }
                     }
                 }
