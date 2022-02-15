@@ -71,6 +71,13 @@
   width: 100%;
 }
 
+.faqs-home .content .title {
+  font-size: 1.8em;
+  font-weight: 300;
+  padding: 1.5em;
+  text-align: center;
+}
+
 .faqs-home .content .table-of-content {
   width: 80%;
   margin: 0 auto;
@@ -86,6 +93,7 @@
           flex-direction: column;
   gap: 1.5em;
   margin: 2rem 0;
+  margin-top: 1rem;
 }
 
 .faqs-home .content .table-of-content .questions .question {
@@ -101,11 +109,13 @@
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
+  cursor: pointer;
 }
 
 .faqs-home .content .table-of-content .questions .question .main-section .title {
   font-family: "Anton", sans-serif;
   font-weight: 500;
+  font-size: 1.5em;
   padding: .5em;
   background-color: #fcba00;
   border-bottom: solid 1px #cfcfcf81;
