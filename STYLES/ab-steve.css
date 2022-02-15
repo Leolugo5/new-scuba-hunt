@@ -99,4 +99,13 @@
     margin: 1em 0;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .ab-steve .steve-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=ab-steve.css.map */

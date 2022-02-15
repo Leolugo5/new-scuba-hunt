@@ -67,3 +67,10 @@
         }
     }
 }
+@media screen and(max-width: 750px) {
+    .ab-steve {
+        .steve-wrapper {
+            flex-direction: column;
+        }
+    }
+}

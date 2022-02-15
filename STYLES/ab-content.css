@@ -18,6 +18,13 @@
   margin: 0 auto;
 }
 
+.ab-content .ab-content-wrapper .title > h2 {
+  text-align: center;
+  padding: .8em 0;
+  font-weight: 300;
+  font-size: 2em;
+}
+
 .ab-content .ab-content-wrapper .text {
   padding: 1em 0;
 }

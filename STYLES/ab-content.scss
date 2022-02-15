@@ -7,6 +7,12 @@
     .ab-content-wrapper {
         width: 60%;
         margin: 0 auto;
+        .title>h2 {
+            text-align: center;
+            padding: .8em 0;
+            font-weight: 300;
+            font-size: 2em;
+        }
         
         .text {
             padding: 1em 0;
