@@ -32,7 +32,7 @@
   width: 100%;
   height: 70vh;
   position: relative;
-  background-image: url("../media/Images/FAQS-CENTERED.jpg");
+  background-image: url("../media/Images/Final photos/FAQS-CENTERED.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -129,6 +129,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  text-align: left;
 }
 
 .faqs-home .content .table-of-content .questions .question .answer-off {
