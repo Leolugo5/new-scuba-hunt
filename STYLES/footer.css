@@ -96,6 +96,9 @@
   }
   .footer .footer-wrapper .logo-container .logo {
     margin: 0 auto;
+    height: 68px;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
 }
 /*# sourceMappingURL=footer.css.map */
