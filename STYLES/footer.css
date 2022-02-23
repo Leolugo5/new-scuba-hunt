@@ -40,9 +40,9 @@
 }
 
 .footer .footer-wrapper .logo-container .logo {
-  height: 80px;
-  -webkit-transform: scale(1.22);
-          transform: scale(1.22);
+  height: 68px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .footer .footer-wrapper .footer-list {
